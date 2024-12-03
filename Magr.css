@@ -1,0 +1,47 @@
+body {
+    background-image: url('sfondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 2 / 3;
+    padding: 20px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.orario {
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 3.5rem;
+}
+
+nav {
+    background-image: url('navBar.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
